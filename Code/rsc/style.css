@@ -1,0 +1,11 @@
+#paneAccueil,#gridBravo,#gridNouvelle{
+    -fx-background-color: #1C0702;
+}
+
+#btnPorte {
+    -fx-background-image: url('/img/porte.png');
+}
+
+#btnAccueil,#btnJouer,#btnCharger,#btnNouvelle{
+    -fx-background-color: #FFFFFF;
+}

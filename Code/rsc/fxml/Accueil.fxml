@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="paneAccueil" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.Accueil">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="93.0" prefHeight="55.0" prefWidth="487.0" text="Bienvenue dans le Manoir !" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnNouvelle" layoutX="218.0" layoutY="191.0" mnemonicParsing="false" onAction="#clicNouvellePartie" text="Nouvelle partie">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCharger" layoutX="203.0" layoutY="274.0" mnemonicParsing="false" onAction="#clicChargerPartie" text="Charger une partie">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
